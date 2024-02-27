@@ -15,8 +15,10 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!--==================== EMAIL SERVICE ====================-->
+        
         <!-- Sweet Alert -->
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        
         <!-- Email.JS -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script type="text/javascript">
@@ -1142,27 +1144,19 @@
             </section>
 
             <!--==================== PRESENTATION ====================-->
-            <section class="presentation section" id="presentation">
-                <h2 class="section__title">Presentations</h2>
-                <span class="section__subtitle">Talks and Meetings</span>
+            <!--<section class="presentation section" id="presentation">
+                <!--<h2 class="section__title">Presentations</h2>
+                <!--<span class="section__subtitle">Talks and Meetings</span>
 
-                <div class="presentation__container container grid">
-                    <div class="presentation__content">
-                        <div class="iframe__container">
-                            <span class="presentation__subtitle">FNC Technology Company Introduction</span>
-                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.beautiful.ai/embed/-N99gCWOIluAxGaB3Ki_?utm_source=beautiful_player&utm_medium=embed&utm_campaign=-MzlkefNLC76aJ1MLXfh"></iframe>
-                        </div>                        
-                        <div class="iframe__container">
-                            <span class="presentation__subtitle">SMR & MMR Development Status in the World</span>
-                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.beautiful.ai/embed/-N9WTeD278rsbcimSTFQ?utm_source=beautiful_player&utm_medium=embed&utm_campaign=-N9WS-JQcqI9yrHAPO0K"></iframe>
-                        </div>                                             
-                        <div class="iframe__container">
-                            <span class="presentation__subtitle">Non-electric Applications of Nuclear Energy</span>
-                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.beautiful.ai/embed/-N9ApKSzKtHuNwFS2cEY?utm_source=beautiful_player&utm_medium=embed&utm_campaign=-N9AnjGmWtBp2Tgf5cej"></iframe>
-                        </div>                                             
-                    </div>   
-                 </div>
-            </section>
+                <!--<div class="presentation__container container grid">
+                    <!--<div class="presentation__content">
+                        <!--<div class="iframe__container">
+                            <!--<span class="presentation__subtitle">FNC Technology Company Introduction</span>
+                            <!--<iframe allowfullscreen class="iframe" width="100%" height="100%"  src="INSERT_URL_LINK_TO_VIDEO"></iframe>
+                        </div>-->                                                                     
+                    </div>-->   
+                 </div>-->
+            </section>-->
 
             <!--==================== ONLINE MEETING ====================-->
             <!-- <section class="meeting section" id="meeting">
@@ -1200,39 +1194,45 @@
 
                             <div>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Canada</span>
+                                <span class="contact__subtitle">Toronto, Canada</span>
                             </div>
                         </div>
                     </div>
 
                     <form action="" class="contact__form grid">
                         <div class="contact__inputs grid">
+                            
                             <div class="contact__content">
                                 <label for="" class="contact__label">Full Name</label>
                                 <input type="text" placeholder="Enter full name" class="contact__input" id="fullName" onkeyup="validateName()">
                                 <span id="name-error" class="contact__subtitle"></span>
                             </div>
+                            
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
                                 <input type="email" placeholder="Enter email address" class="contact__input" id="email_id" onkeyup="validateEmail()">
                                 <span id="email-error" class="contact__subtitle"></span>
                             </div>
-                        </div>
-                        <div class="contact__content">
+                            
+                            <div class="contact__content">
                             <label for="" class="contact__label">Subject</label>
-                            <input type="text" id="subject" placeholder="Enter a subject line" class="contact__input">
-                        </div>
-                        <div class="contact__content">
+                            <input type="text" id="subject" placeholder="Enter subject line" class="contact__input">
+                            </div>
+                            
+                            <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
                             <textarea name="" cols="0" rows="7" placeholder="Enter your message" class="contact__input" id="message" onkeyup="validateMessage()"></textarea>
                             <span id="message-error" class="contact__subtitle"></span>
+                            </div>
                         </div>
+                        
                         <div>
                             <a onclick="return SendMail()" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                            </a>
                         </div>
+                        
                     </form>
                 </div>
             </section>
@@ -1258,13 +1258,7 @@
                             <a href="#testimonials" class="footer__link">References</a>
                         </li>
                         <li>
-                            <a href="#videos" class="footer__link">Videos</a>
-                        </li>
-                        <li>
                             <a href="#meeting" class="footer__link">Meeting</a>
-                        </li>
-                        <li>
-                            <a href="#presentation" class="footer__link">Presentations</a>
                         </li>
                     </ul>
 
