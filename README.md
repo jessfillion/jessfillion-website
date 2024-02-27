@@ -13,11 +13,6 @@
 - Added Google Tag script for [Google Analytics](https://analytics.google.com)
 - Online meeting integration by [Calendly](https://calendly.com/)
 
-### Landing Page Light
+### Landing Pages - Light vs. Dark
 
-![preview img](./assets/snaps/Lighttheme.JPG)
-
-### Landing Page Dark
-
-![preview img](./assets/snaps/Darktheme.JPG)
-
+![preview img](./assets/snaps/demo.png)
