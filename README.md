@@ -15,9 +15,9 @@
 
 ### Landing Page Light
 
-![preview img](./assets/snaps/light.png)
+![preview img](./assets/snaps/Lighttheme.jpg)
 
 ### Landing Page Dark
 
-![preview img](./assets/snaps/dark.png)
+![preview img](./assets/snaps/Darktheme.jpg)
 
