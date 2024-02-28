@@ -1066,7 +1066,7 @@ img {
   
   .about__container,
   .skills__container,
-  .paper__content,
+  .projects__content,
   .project__container,
   .contact__container,
   .footer__container{
@@ -1204,11 +1204,11 @@ img {
     width: 450px;
   }
 
-  .paper__img{
+  .projects__img{
     width: 320px;
   }
 
-  .paper__content{
+  .projects__content{
     align-items: center;
   }
 
@@ -1275,11 +1275,11 @@ img {
     grid-template-columns: repeat(3, 238px);
   }
   
-  .paper__content{
+  .projects__content{
     column-gap: 5rem;
   }
 
-  .swiper-paper-icon{
+  .swiper-projects-icon{
     font-size: 3.5rem;
   }
 
