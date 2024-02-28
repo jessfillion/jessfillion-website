@@ -499,7 +499,7 @@ img {
 
 
 .skills__bar,
-.skills__percantage{
+.skills__percentage{
   height: 5px;
   border-radius: .25rem;
 }
@@ -510,7 +510,7 @@ img {
 }
 
 
-.skills__percantage{
+.skills__percentage{
   display: block;
   background-color: var(--first-color);
 }
